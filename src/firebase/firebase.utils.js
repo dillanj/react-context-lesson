@@ -2,14 +2,14 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+// Your web app's Firebase configuration
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  apiKey: "AIzaSyDRxSAf7vJmrP7uT7zUN0QzoKBTS9Y8qog",
+  authDomain: "crown-clothing-5aade.firebaseapp.com",
+  projectId: "crown-clothing-5aade",
+  storageBucket: "crown-clothing-5aade.appspot.com",
+  messagingSenderId: "384013851337",
+  appId: "1:384013851337:web:424848f978b43765580b18"
 };
 
 firebase.initializeApp(config);
